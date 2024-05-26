@@ -1,0 +1,22 @@
+[package]
+name = "telegram-bot-raw"
+version = "0.9.0"
+authors = ["Lukas Kalbertodt <lukas.kalbertodt@gmail.com>", "Fedor Gogolev <knsd@knsd.net>", "Gustavo Aguiar <gustavo.h.o.aguiar@gmail.com>"]
+edition = "2018"
+
+description = "Telegram Bot API types"
+
+documentation = "https://docs.rs/telegram-bot-raw/"
+repository = "https://github.com/telegram-rs/telegram-bot"
+readme = "../README.md"
+
+keywords = ["telegram", "bot", "chat", "api"]
+categories = ["api-bindings"]
+license = "MIT"
+
+[dependencies]
+bytes = "1.0"
+serde = { version = "1", features = ["derive"] }
+serde_derive = "1"
+serde_json = "1"
+serde-value = "0.7.0"
